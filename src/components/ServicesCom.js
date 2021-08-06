@@ -11,7 +11,7 @@ const ServicesCom = () => {
                         <h2>Services</h2>
                         <p className="mt-4">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
                      </div>
-                     <div className="col-lg-4 mt-4">
+                     <div className="col-lg-4 col-md-6 col-sm-12 col-12 mt-4">
                          <div className="serviceSummary">
                             <Link to="/">
                                <FaToolbox className="iconData"/>
@@ -22,7 +22,7 @@ const ServicesCom = () => {
                             </Link>
                          </div>
                      </div>
-                     <div className="col-lg-4 mt-4">
+                     <div className="col-lg-4 col-md-6 col-sm-12 col-12 mt-4">
                          <div className="serviceSummary">
                             <Link to="/">
                                <FiBox className="iconData"/>
@@ -33,7 +33,7 @@ const ServicesCom = () => {
                             </Link>
                          </div>
                      </div>
-                     <div className="col-lg-4 mt-4">
+                     <div className="col-lg-4 col-md-6 col-sm-12 col-12 mt-4">
                          <div className="serviceSummary">
                             <Link to="/">
                                <FaSignal className="iconData"/>
@@ -47,7 +47,7 @@ const ServicesCom = () => {
                 </div>
           
                 <div className="row">
-                     <div className="col-lg-4 mt-4">
+                     <div className="col-lg-4 col-md-6 col-sm-12 col-12 mt-4">
                          <div className="serviceSummary">
                             <Link to="/">
                                <FaToolbox className="iconData"/>
@@ -58,7 +58,7 @@ const ServicesCom = () => {
                             </Link>
                          </div>
                      </div>
-                     <div className="col-lg-4 mt-4">
+                     <div className="col-lg-4 col-md-6 col-sm-12 col-12 mt-4">
                          <div className="serviceSummary">
                             <Link to="/">
                                <FaToolbox className="iconData"/>
@@ -69,7 +69,7 @@ const ServicesCom = () => {
                             </Link>
                          </div>
                      </div>
-                     <div className="col-lg-4 mt-4">
+                     <div className="col-lg-4 col-md-6 col-sm-12 col-12 mt-4">
                          <div className="serviceSummary">
                             <Link to="/">
                                <FaToolbox className="iconData"/>
