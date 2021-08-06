@@ -1510,7 +1510,7 @@
     "schema-utils" "^2.6.5"
     "source-map" "^0.7.3"
 
-"@popperjs/core@^2.9.2":
+"@popperjs/core@^2.9.3":
   "version" "2.9.3"
 
 "@ramonak/react-progress-bar@^3.2.1":
@@ -2895,8 +2895,10 @@
   "resolved" "https://registry.npmjs.org/boolbase/-/boolbase-1.0.0.tgz"
   "version" "1.0.0"
 
-"bootstrap@^5.0.2":
-  "version" "5.0.2"
+"bootstrap@^5.1.0":
+  "integrity" "sha512-bs74WNI9BgBo3cEovmdMHikSKoXnDgA6VQjJ7TyTotU6L7d41ZyCEEelPwkYEzsG/Zjv3ie9IE3EMAje0W9Xew=="
+  "resolved" "https://registry.npmjs.org/bootstrap/-/bootstrap-5.1.0.tgz"
+  "version" "5.1.0"
 
 "brace-expansion@^1.1.7":
   "integrity" "sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA=="
