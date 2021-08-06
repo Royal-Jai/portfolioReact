@@ -1,0 +1,710 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.padLeft {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+@media screen and (max-width: 996px) {
+  .padLeft {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+header {
+  background-color: #040b14;
+  height: 100vh;
+  width: 25%;
+  position: fixed;
+}
+
+@media screen and (max-width: 967px) {
+  header {
+    height: 75px;
+    width: 100%;
+    position: static;
+  }
+}
+
+header .navbar {
+  display: block;
+  justify-content: center;
+}
+
+header .navbar a {
+  text-decoration: none;
+}
+
+header .navbar a .profileDiv {
+  width: 45%;
+  margin: 20px auto;
+}
+
+@media screen and (max-width: 320px) {
+  header .navbar a .profileDiv {
+    width: 20%;
+    margin: -4px auto;
+    position: absolute;
+    left: 40px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 420px) {
+  header .navbar a .profileDiv {
+    width: 17%;
+    margin: -4px auto;
+    position: absolute;
+    left: 40px;
+  }
+}
+
+@media screen and (min-width: 421px) and (max-width: 567px) {
+  header .navbar a .profileDiv {
+    width: 16%;
+    margin: -4px auto;
+    position: absolute;
+    left: 40px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  header .navbar a .profileDiv {
+    width: 9%;
+    margin: -5px auto;
+    position: absolute;
+    left: 40px;
+  }
+}
+
+header .navbar a .profileDiv .profileImage {
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+header .navbar a .logo {
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 12px;
+}
+
+@media screen and (max-width: 996px) {
+  header .navbar a .logo {
+    display: none;
+    position: absolute;
+    top: 15px;
+    left: 35px;
+  }
+}
+
+header .navbar .socilaIcons {
+  text-align: center;
+  margin-top: 14px;
+}
+
+@media screen and (max-width: 967px) {
+  header .navbar .socilaIcons {
+    text-align: center;
+    margin-top: 14px;
+    position: absolute;
+    bottom: 12px;
+    left: 12%;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  header .navbar .socilaIcons {
+    left: 5%;
+  }
+}
+
+header .navbar .socilaIcons .faTwitter {
+  color: #fff;
+  background-color: #212431;
+  margin-right: 8px;
+  font-size: 30px;
+  padding: 4px;
+  border-radius: 50px;
+}
+
+header .navbar .socilaIcons .faTwitter:hover {
+  background-color: #149ddd;
+  color: #fff;
+}
+
+header .navbar .socilaIcons .faFacebookF {
+  color: #fff;
+  background-color: #212431;
+  margin-right: 8px;
+  font-size: 30px;
+  padding: 4px;
+  border-radius: 50px;
+}
+
+header .navbar .socilaIcons .faFacebookF:hover {
+  background-color: #149ddd;
+  color: #fff;
+}
+
+header .navbar .socilaIcons .faInstagramSquare {
+  color: #fff;
+  background-color: #212431;
+  margin-right: 8px;
+  font-size: 30px;
+  padding: 4px;
+  border-radius: 50px;
+}
+
+header .navbar .socilaIcons .faInstagramSquare:hover {
+  background-color: #149ddd;
+  color: #fff;
+}
+
+header .navbar .socilaIcons .faSkype {
+  color: #fff;
+  background-color: #212431;
+  margin-right: 8px;
+  font-size: 30px;
+  padding: 4px;
+  border-radius: 50px;
+}
+
+header .navbar .socilaIcons .faSkype:hover {
+  background-color: #149ddd;
+  color: #fff;
+}
+
+header .navbar .socilaIcons .faLinkedinIn {
+  color: #fff;
+  background-color: #212431;
+  margin-right: 8px;
+  font-size: 30px;
+  padding: 4px;
+  border-radius: 50px;
+}
+
+header .navbar .socilaIcons .faLinkedinIn:hover {
+  background-color: #149ddd;
+  color: #fff;
+}
+
+@media screen and (max-width: 996px) {
+  header .navbar .nav-link-mobile {
+    position: absolute;
+    display: block;
+    list-style: none;
+    background-color: #005469;
+    left: 0;
+    top: 75px;
+    transition: all 1.5s ease-out;
+    width: 100%;
+    padding-bottom: 60px;
+    padding-left: 0px;
+    z-index: 9999;
+  }
+}
+
+@media screen and (max-width: 996px) {
+  header .navbar .nav-link-mobile li {
+    padding-top: 12px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header .navbar .nav-link-mobile li .home,
+  header .navbar .nav-link-mobile li .about,
+  header .navbar .nav-link-mobile li .resume,
+  header .navbar .nav-link-mobile li .portfolio,
+  header .navbar .nav-link-mobile li .services {
+    text-align: center;
+    color: #fff !important;
+    padding: 0px 0px 0px 40px;
+    width: 100%;
+    transition: all 1.5s ease;
+    font-size: 20px;
+  }
+}
+
+header .navbar .mt4 {
+  margin-top: 60px;
+}
+
+@media screen and (max-width: 996px) {
+  header .navbar .mt4 {
+    margin-top: 0px;
+  }
+}
+
+header .navbar .navLinks {
+  list-style-type: none;
+  padding: 0px 40px 60px 65px;
+  margin: 0;
+}
+
+@media screen and (max-width: 996px) {
+  header .navbar .navLinks {
+    display: none;
+  }
+}
+
+header .navbar .navLinks .active {
+  color: #fff;
+  background: #149ddd;
+  padding: 2px;
+}
+
+header .navbar .navLinks li {
+  margin-bottom: 20px;
+}
+
+header .navbar .navLinks li .home,
+header .navbar .navLinks li .about,
+header .navbar .navLinks li .resume,
+header .navbar .navLinks li .portfolio,
+header .navbar .navLinks li .services {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+header .navbar .navLinks li .home .iconUser,
+header .navbar .navLinks li .about .iconUser,
+header .navbar .navLinks li .resume .iconUser,
+header .navbar .navLinks li .portfolio .iconUser,
+header .navbar .navLinks li .services .iconUser {
+  font-size: 26px;
+  vertical-align: sub;
+}
+
+header .navbar .mobile-menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 967px) {
+  header .navbar .mobile-menu-icon {
+    display: block;
+    position: absolute;
+    font-size: 25px;
+    right: 25px;
+    top: 16px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    outline: none;
+  }
+}
+
+.homeProfile {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+@media screen and (max-width: 567px) {
+  .homeProfile {
+    background-size: cover;
+    height: 235px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 996px) {
+  .homeProfile {
+    background-size: cover;
+    height: 500px;
+  }
+}
+
+.homeProfile h1 {
+  color: #fff;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+}
+
+@media screen and (max-width: 567px) {
+  .homeProfile h1 {
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+  }
+}
+
+.homeProfile .react-typewriter-text {
+  color: #fff;
+  font-weight: 500;
+  font-size: 26px;
+  margin-top: 60px;
+  border-bottom: 1px solid grey;
+}
+
+@media screen and (max-width: 567px) {
+  .homeProfile .react-typewriter-text {
+    font-size: 20px;
+    margin-top: 65px;
+  }
+}
+
+.h2 {
+  font-size: 34px;
+  margin-top: 25px;
+}
+
+@media screen and (max-width: 567px) {
+  .h2 {
+    font-size: 24px;
+  }
+}
+
+img {
+  width: 100%;
+}
+
+h2:before {
+  border-bottom: 3px solid #11b9db;
+  content: "";
+  position: absolute;
+  width: 4%;
+  top: 62px;
+}
+
+@media screen and (max-width: 567px) {
+  h2:before {
+    width: 16%;
+    top: 126px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 996px) {
+  h2:before {
+    width: 6%;
+    top: 130px;
+  }
+}
+
+p {
+  text-align: justify;
+  font-size: 17px;
+}
+
+.profileData {
+  position: relative;
+  top: 0;
+}
+
+.profileData h2 {
+  font-size: 34px;
+  margin-top: 25px;
+}
+
+@media screen and (max-width: 567px) {
+  .profileData h2 {
+    font-size: 24px;
+  }
+}
+
+.profileData h2:before {
+  border-bottom: 3px solid #11b9db;
+  content: "";
+  position: absolute;
+  width: 60%;
+  top: 44px;
+}
+
+@media screen and (max-width: 567px) {
+  .profileData h2:before {
+    width: 43%;
+    top: 60px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 996px) {
+  .profileData h2:before {
+    width: 6%;
+    top: 130px;
+  }
+}
+
+.profileData p {
+  text-align: justify;
+  font-size: 17px;
+}
+
+.profileData .arrowRight {
+  color: #11b9db;
+  font-size: 30px;
+  margin-top: -4px;
+}
+
+.factsData {
+  position: relative;
+  top: 0;
+  background-color: #8ebbca;
+  padding-bottom: 30px;
+}
+
+.factsData h2 {
+  font-size: 34px;
+  margin-top: 25px;
+  color: #fff;
+}
+
+@media screen and (max-width: 567px) {
+  .factsData h2 {
+    font-size: 24px;
+  }
+}
+
+.factsData h2:before {
+  border-bottom: 3px solid #000;
+  content: "";
+  position: absolute;
+  width: 6%;
+  top: 90px;
+}
+
+@media screen and (max-width: 567px) {
+  .factsData h2:before {
+    width: 16%;
+    top: 78px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 996px) {
+  .factsData h2:before {
+    width: 6%;
+    top: 130px;
+  }
+}
+
+.factsData p {
+  text-align: justify;
+  font-size: 17px;
+}
+
+.factsData div .iconBehappy {
+  float: left;
+  margin-right: 12px;
+  font-size: 50px;
+  color: #fff;
+}
+
+.factsData div span {
+  height: 100%;
+  display: flow-root;
+}
+
+.factsData div span h3 {
+  font-size: 36px;
+  margin-bottom: 0px;
+}
+
+.factsData div span h4 {
+  margin-bottom: 4px;
+  font-size: 22px;
+}
+
+.skillsData {
+  position: relative;
+  top: 0;
+  background-color: #f5f8fd;
+  padding-bottom: 30px;
+}
+
+.skillsData h2 {
+  font-size: 34px;
+  margin-top: 25px;
+  color: #000;
+}
+
+@media screen and (max-width: 567px) {
+  .skillsData h2 {
+    font-size: 24px;
+  }
+}
+
+.skillsData h2:before {
+  border-bottom: 3px solid #11b9db;
+  content: "";
+  position: absolute;
+  width: 6%;
+  top: 65px;
+}
+
+@media screen and (max-width: 567px) {
+  .skillsData h2:before {
+    width: 16%;
+    top: 55px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 996px) {
+  .skillsData h2:before {
+    width: 6%;
+    top: 130px;
+  }
+}
+
+.skillsData p {
+  text-align: justify;
+  font-size: 17px;
+}
+
+.footerData {
+  margin-top: -20px;
+}
+
+.footerData h5 {
+  text-align: center;
+}
+
+@media screen and (max-width: 996px) {
+  .footerData h5 {
+    display: none;
+  }
+}
+
+.summaryData {
+  position: relative;
+}
+
+.summaryData h2::before {
+  width: 17%;
+  top: 40px;
+}
+
+@media screen and (max-width: 567px) {
+  .summaryData h2::before {
+    top: 32px;
+  }
+}
+
+.summaryData .arrowRight {
+  color: #11b9db;
+  font-size: 30px;
+  margin-top: -4px;
+}
+
+.summaryData p {
+  margin-bottom: 4px;
+}
+
+.professionalData {
+  position: relative;
+}
+
+.professionalData h2::before {
+  width: 40%;
+  top: 40px;
+}
+
+@media screen and (max-width: 567px) {
+  .professionalData h2::before {
+    top: 60px;
+  }
+}
+
+.professionalData .arrowRight {
+  color: #11b9db;
+  font-size: 30px;
+  margin-top: -4px;
+}
+
+.professionalData p {
+  margin-bottom: 4px;
+}
+
+.professionalData h5 {
+  font-size: 16px;
+  background: #e4edf9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.educationData {
+  position: relative;
+}
+
+.educationData h2::before {
+  width: 20%;
+  top: 40px;
+}
+
+@media screen and (max-width: 567px) {
+  .educationData h2::before {
+    top: 60px;
+  }
+}
+
+.educationData h5 {
+  font-size: 16px;
+  background: #e4edf9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.portfolioData {
+  position: relative;
+  top: 0;
+  background-color: #8ebbca;
+  padding-bottom: 30px;
+}
+
+.portfolioData h2::before {
+  width: 9%;
+  top: 60px;
+  border-bottom: 3px solid #fff;
+}
+
+@media screen and (max-width: 567px) {
+  .portfolioData h2::before {
+    top: 60px;
+  }
+}
+
+.serviceSummary a {
+  text-decoration: none;
+  color: black;
+}
+
+.serviceSummary a .iconData {
+  float: left;
+  margin-right: 12px;
+  font-size: 50px;
+  color: #8ebbca;
+  border: 1px solid #8ebbca;
+  border-radius: 50%;
+  padding: 4px;
+}
+
+.serviceSummary a .iconData:hover {
+  background-color: #8ebbca;
+  color: #fff;
+}
+
+.serviceSummary a span {
+  height: 100%;
+  display: flow-root;
+}
+
+.serviceSummary a span h5 {
+  font-size: 22px;
+}
+/*# sourceMappingURL=styles.css.map */
