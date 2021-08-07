@@ -342,11 +342,11 @@ header .navbar .mobile-menu-icon {
   }
 }
 
-@media screen and (max-width: 567px) and (min-width: 291) {
+@media screen and (max-width: 567px) and (min-width: 291px) {
   .homeProfile h1 {
     position: absolute;
     top: 65%;
-    left: 40%;
+    left: 45%;
     transform: translate(-50%, -50%);
     font-size: 45px;
   }
