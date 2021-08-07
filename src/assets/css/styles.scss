@@ -279,10 +279,10 @@ header {
     }
     @media screen and (max-width: 567px) and (min-width: 291px) {
       position: absolute;
-      top: 65%;
-      left: 45%;
+      top: 57%;
+      left: 40%;
       transform: translate(-50%, -50%);
-      font-size: 45px;
+      font-size: 40px;
     }
   }
   .react-typewriter-text {
@@ -292,8 +292,8 @@ header {
     margin-top: 60px;
     border-bottom: 1px solid grey;
     @media screen and (max-width: 567px) {
-      font-size: 22px;
-      margin-top: 85px;
+      font-size: 18px;
+      margin-top: 72px;
       // position: absolute;
       // left: 120px;
     }
