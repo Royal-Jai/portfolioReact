@@ -256,7 +256,8 @@ header {
   position: relative;
   @media screen and (max-width: 567px) {
     background-size: cover;
-    height: 235px;
+    height: 100vh;
+    background-position: right;
   }
   @media screen and (min-width: 600px) and (max-width: 996px) {
     background-size: cover;
@@ -271,12 +272,17 @@ header {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     font-size: 50px;
-    @media screen and (max-width: 567px) {
+    @media screen and (max-width: 290px) {
+      top: 65%;
+      left: 45%;
+      font-size: 36px;
+    }
+    @media screen and (max-width: 567px) and (min-width: 291) {
       position: absolute;
-      top: 36%;
-      left: 50%;
+      top: 65%;
+      left: 40%;
       transform: translate(-50%, -50%);
-      font-size: 30px;
+      font-size: 45px;
     }
   }
   .react-typewriter-text {
@@ -286,8 +292,10 @@ header {
     margin-top: 60px;
     border-bottom: 1px solid grey;
     @media screen and (max-width: 567px) {
-      font-size: 20px;
-      margin-top: 65px;
+      font-size: 22px;
+      margin-top: 85px;
+      // position: absolute;
+      // left: 120px;
     }
   }
 }
@@ -313,7 +321,7 @@ h2:before {
   top: 62px;
   @media screen and (max-width: 567px) {
     width: 16%;
-    top: 126px;
+    top: 130px;
   }
   @media screen and (min-width: 600px) and (max-width: 996px) {
     width: 6%;
@@ -484,7 +492,8 @@ p {
     width: 40%;
     top: 40px;
     @media screen and (max-width: 567px) {
-      top: 60px;
+      top: 32px;
+      width: 50%;
     }
   }
   .arrowRight {
@@ -510,7 +519,7 @@ p {
     width: 20%;
     top: 40px;
     @media screen and (max-width: 567px) {
-      top: 60px;
+      top: 32px;
     }
   }
   h5 {

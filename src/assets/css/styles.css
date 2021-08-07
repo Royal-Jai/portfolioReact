@@ -312,7 +312,8 @@ header .navbar .mobile-menu-icon {
 @media screen and (max-width: 567px) {
   .homeProfile {
     background-size: cover;
-    height: 235px;
+    height: 100vh;
+    background-position: right;
   }
 }
 
@@ -333,13 +334,21 @@ header .navbar .mobile-menu-icon {
   font-size: 50px;
 }
 
-@media screen and (max-width: 567px) {
+@media screen and (max-width: 290px) {
+  .homeProfile h1 {
+    top: 65%;
+    left: 45%;
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 567px) and (min-width: 291) {
   .homeProfile h1 {
     position: absolute;
-    top: 36%;
-    left: 50%;
+    top: 65%;
+    left: 40%;
     transform: translate(-50%, -50%);
-    font-size: 30px;
+    font-size: 45px;
   }
 }
 
@@ -353,8 +362,8 @@ header .navbar .mobile-menu-icon {
 
 @media screen and (max-width: 567px) {
   .homeProfile .react-typewriter-text {
-    font-size: 20px;
-    margin-top: 65px;
+    font-size: 22px;
+    margin-top: 85px;
   }
 }
 
@@ -384,14 +393,14 @@ h2:before {
 @media screen and (max-width: 567px) {
   h2:before {
     width: 16%;
-    top: 126px;
+    top: 130px;
   }
 }
 
 @media screen and (min-width: 600px) and (max-width: 996px) {
   h2:before {
     width: 6%;
-    top: 130px;
+    top: 137px;
   }
 }
 
@@ -613,7 +622,8 @@ p {
 
 @media screen and (max-width: 567px) {
   .professionalData h2::before {
-    top: 60px;
+    top: 32px;
+    width: 50%;
   }
 }
 
@@ -647,7 +657,7 @@ p {
 
 @media screen and (max-width: 567px) {
   .educationData h2::before {
-    top: 60px;
+    top: 32px;
   }
 }
 
