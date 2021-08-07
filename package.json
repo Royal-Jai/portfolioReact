@@ -1,6 +1,9 @@
 {
   "name": "portfolio-app",
   "version": "0.1.0",
+  "engines": {
+    "node": "^16.6.1"
+  },
   "private": true,
   "dependencies": {
     "@fortawesome/react-fontawesome": "^0.1.15",
